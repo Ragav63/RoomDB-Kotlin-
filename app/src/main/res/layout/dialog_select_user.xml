@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerCriteria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/update_delete_criteria" />
+
+    <EditText
+        android:id="@+id/edtCriteriaValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value" />
+
+    <Button
+        android:id="@+id/btnFetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch User" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Room Database</string>
+
+    <string-array name="update_delete_criteria">
+        <item>Name</item>
+        <item>Email</item>
+        <item>ID</item>
+    </string-array>
+
+    <string-array name="update_field_array">
+        <item>Name</item>
+        <item>Email</item>
+    </string-array>
+</resources>

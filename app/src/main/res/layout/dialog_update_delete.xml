@@ -1,0 +1,44 @@
+<!-- dialog_update_delete.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="According to which field you want to select"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCriteria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:entries="@array/update_delete_criteria" />
+
+    <EditText
+        android:id="@+id/edtCriteriaValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Value" />
+
+    <Spinner
+        android:id="@+id/spinnerUpdateField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:entries="@array/update_field_array" />
+
+    <EditText
+        android:id="@+id/edtNewValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter new value"
+        android:inputType="text" />
+</LinearLayout>
